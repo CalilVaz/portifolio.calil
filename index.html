@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calil Vaz</title>
+  <link rel="icon" href="./images/icon.svg">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+
+<body>
+  <nav id="nav">
+    <div class="nav">
+      <h1 class="title">Calil Vaz</h1>
+      <i id="iconHamburger" class="fa-solid fa-bars"></i>
+      <ul id="menu">
+        <div>
+          <i onclick="closeModal()" id="iconClose" class="fa-regular fa-circle-xmark"></i>
+        </div>
+        <a onclick="closeModal()" class="paragraphSmall link" href="#header">
+          <li class="paragraphSmall links">
+            Início
+          </li>
+        </a>
+
+        <a onclick="closeModal()" class="paragraphSmall link" href="#about">
+          <li class="paragraphSmall links">
+            Sobre mim
+          </li>
+        </a>
+
+        <a onclick="closeModal()" class="paragraphSmall link" href="#projects">
+          <li class="paragraphSmall links">
+            Projetos
+          </li>
+        </a>
+
+        <a onclick="closeModal()" class="paragraphSmall link" href="#career">
+          <li class="paragraphSmall links">
+            Formações
+          </li>
+        </a>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ----- Main ----- -->
+  <main>
+    <!-- ----- Header ----- -->
+  <header class="header">
+    <section id="header" class="section">
+      <div>
+        <h1 class="mainName title">Calil Vaz
+        </h1>
+        <p class="paragraphMedium">
+          Frontend Development</p>
+        <p class="paragraphStudent">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          Student</p>
+      </div>
+    </section>
+    <section class="section">
+      <div>
+        <img src="./images/Image-main.png" alt="Foto do Calil" />
+      </div>
+    </section>
+  </header>
+  <div class="divider"></div>
+ 
+    <!-- ----- About ----- -->
+    <section id="about">
+      <section class="section">
+        <div id="contentImage">
+          <img src="./images/Image-about.jpg" alt="Foto do Calil" />
+        </div>
+      </section>
+
+      <section class="section">
+        <h3 class="title">Sobre mim</h3>
+        <p id="boxTextAbout" class="paragraphSmall">
+          Conheci a área de programação através do meu tio que é programador, me apaixonei pela área e sempre busco
+          melhorar cada vez mais.
+          <br />
+          <br />
+          Começei estudando pelo o YouTube e depois conheci a plataforma da
+          <a target="_blank" class="paragraphSmall"
+            href="https://app.rocketseat.com.br/me/calil-vaz-0404">Rocketseat</a>, foi onde dei os primeiros passos na
+          minha carreira.
+          <br />
+          <br />
+          Hoje continuo estudando na plataforma da
+          <a target="_blank" class="paragraphSmall"
+            href="https://app.rocketseat.com.br/me/calil-vaz-0404">Rocketseat</a>
+          e faço curso de técnologo em análise e desenvolvimento de sistemas.
+        </p>
+      </section>
+    </section>
+    <div class="divider"></div>
+
+    <!-- ----- Projects ----- -->
+<section id="projects">
+
+  <div class="containerTitle">
+    <h2 class="title">Projetos</h2>
+  </div>
+
+        <swiper-container class="mySwiper" init="false" navigation="true" autoplay-delay="2500">
+
+          <swiper-slide><div class="card">
+            <div class="containerImg">
+              <img src="./images/Project Validade.png" alt="Imagem de projeto" />
+            </div>
+            <div class="containerTexts">
+              <div class="textDescription">
+                <p class="paragraphSmall">
+                  <strong>Descrição: </strong>
+                  Projeto criado para facilitar o trabalho dos conferentes da empresa, antes o trabalho era feito manualmente e com esse projeto foi automatizado. (Cria um pdf com a data de validade do produto e nome do conferente)
+                </p>
+              </div>
+              <div class="usedTechnologies">
+                <p class="paragraphSmall">
+                  <strong>Tecnologias: </strong>
+                  HTML, CSS, JavaScript
+                </p>
+              </div>
+            </div>
+            <a class="paragraphSmall" target="_blank" href="https://calilvaz.github.io/Validade-Fort-Atacadista/">Acessar site</a>
+          </div>
+        </swiper-slide>
+
+          <swiper-slide><div class="card">
+              <div class="containerImg">
+                <img src="./images/Finances.png" alt="Imagem de projeto" />
+              </div>
+              <div class="containerTexts">
+                <div class="textDescription">
+                  <p class="paragraphSmall">
+                    <strong>Descrição: </strong>
+                    Site criado para administrar receitas e despesas.
+                  </p>
+                </div>
+                <div class="usedTechnologies">
+                  <p class="paragraphSmall">
+                    <strong>Tecnologias: </strong>
+                    HTML, CSS, JavaScript
+                  </p>
+                </div>
+              </div>
+              <a class="paragraphSmall" target="_blank" href="https://calilvaz.github.io/Financas/">Acessar site</a>
+            </div>
+          </swiper-slide>
+
+          <swiper-slide><div class="card">
+              <div class="containerImg">
+                <img src="./images/Project Kaique Vaz.PNG" alt="Imagem de projeto" />
+              </div>
+              <div class="containerTexts">
+                <div class="textDescription">
+                  <p class="paragraphSmall">
+                    <strong>Descrição: </strong>
+                    Portifólio do cantor Kaique Vaz, neste site tem contato para shows, biografia e uma playlist com as músicas do cantor.
+                  </p>
+                </div>
+                <div class="usedTechnologies">
+                  <p class="paragraphSmall">
+                    <strong>Tecnologias: </strong>
+                    HTML, CSS, JavaScript
+                  </p>
+                </div>
+              </div>
+              <a class="paragraphSmall" target="_blank" href="https://calilvaz.github.io/Kaique-Vaz/">Acessar site</a>
+            </div></swiper-slide>
+
+          <swiper-slide><div class="card">
+              <div class="containerImg">
+                <img src="./images/Project Widget.png" alt="Imagem de projeto" />
+              </div>
+              <div class="containerTexts">
+                <div class="textDescription">
+                  <p class="paragraphSmall">
+                    <strong>Descrição: </strong>
+                    Projeto de widget de feedback, nele é possível enviar ideia ou reclamação (com imagem). A mensagem é
+                    recebida no e-mail do administrador do site.
+                  </p>
+                </div>
+                <div class="usedTechnologies">
+                  <p class="paragraphSmall">
+                    <strong>Tecnologias: </strong>
+                    React Js, TypeScript, Node.js, Tailwind CSS, Testes automatizados no back-end, Solid, Prisma, React
+                    Native, Expo.
+                  </p>
+                </div>
+              </div>
+              <a class="paragraphSmall" target="_blank" href="https://github.com/CalilVaz/Widget">Acessar site</a>
+            </div></swiper-slide>
+
+          <swiper-slide><div class="card">
+              <div class="containerImg">
+                <img src="./images/RocketQ.png" alt="Imagem de projeto" />
+              </div>
+              <div class="containerTexts">
+                <div class="textDescription">
+                  <p class="paragraphSmall">
+                    <strong>Descrição: </strong>
+                    Neste site é possível criar salas de perguntas anônimas, também é possível acessar sala existente
+                    através do código da sala.
+                  </p>
+                </div>
+                <div class="usedTechnologies">
+                  <p class="paragraphSmall">
+                    <strong>Tecnologias: </strong>
+                    EJS, CSS, JavaScript, Node.js, SQLite.
+                  </p>
+                </div>
+              </div>
+              <a class="paragraphSmall" target="_blank" href="https://github.com/CalilVaz/RoquetQ">Acessar site</a>
+            </div></swiper-slide>
+
+        </swiper-container>
+    </section>
+    <div class="divider"></div>
+
+    <!-- ----- Career ----- -->
+    <section id="career">
+      <div class="containerTitle">
+        <h2 class="title">Conhecimentos de tecnologias</h2>
+      </div>
+
+      <!-- ----- Skills Technologies ----- -->
+      <div class="containerSkillsTechnologies">
+        <div class="cardSkillsTechnologies">
+          <div class="titleSkill">
+            <h4 class="paragraphMedium">Frontend</h4>
+          </div>
+          <ul>
+            <li class="skill">
+              <p class="paragraphSmall">
+                HTML <br />
+                Intermediário
+              </p>
+              <div title="Em progresso..." class="progressBar paragraphSmall">
+                <div class="progressAnimation"></div>
+              </div>
+            </li>
+            <li class="skill">
+              <p class="paragraphSmall">
+                CSS <br />
+                Intermediário
+              </p>
+              <div title="Em progresso..." class="progressBar paragraphSmall">
+                <div class="progressAnimation"></div>
+              </div>
+            </li>
+            <li class="skill">
+              <p class="paragraphSmall">
+                JavaScript <br />
+                Básico
+              </p>
+              <div title="Em progresso..." class="progressBar paragraphSmall">
+                <div class="progressAnimation"></div>
+              </div>
+            </li>
+            <li class="skill">
+              <p class="paragraphSmall">
+                React <br />
+                Básico
+              </p>
+              <div title="Em progresso..." class="progressBar paragraphSmall">
+                <div class="progressAnimation"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="cardSkillsTechnologies">
+          <div class="titleSkill">
+            <h4 class="paragraphMedium">Backend</h4>
+          </div>
+          <ul>
+            <li class="skill">
+              <p class="paragraphSmall">
+                Node <br />
+                Básico
+              </p>
+              <div title="Em progresso..." class="progressBar paragraphSmall">
+                <div class="progressAnimation"></div>
+              </div>
+            </li>
+            <li class="skill">
+              <p class="paragraphSmall">
+                SQL <br />
+                Básico
+              </p>
+              <div title="Em progresso..." class="progressBar paragraphSmall">
+                <div class="progressAnimation"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ----- Professional Career ----- -->
+      <div class="containerTitle">
+        <h2 class="title">Formação Profissional</h2>
+      </div>
+
+      <div class="main-container">
+        <div class="text-wrapper left">
+          <div onmouseover="showImageHoverFort()" onmouseleave="hiddenImageHoverFort()" class="content">
+            <div class="containerImage">
+              <img src="images/logo-fort.png" alt="Logo da empresa" />
+            </div>
+            <h3 class="title">Fort Atacadista</h3>
+            <p class="paragraphSmall">
+              • Repositor
+              <br />
+              <br />
+              • Auxiliar Administrativo
+              <br />
+              <br />
+              • Suporte T.I
+            </p>
+            <i class="fa-solid fa-arrow-down arrowHoverImage"></i>
+            <div class="contentImageHover">
+              <img id="imageHoverFort" src="./images/ImageHoverFort.jpg" alt="Foto na empresa Fort Atacadista" />
+            </div>
+          </div>
+        </div>
+
+        <div class="text-wrapper right">
+          <div onmouseover="showImageHoverDiFelicia()" onmouseleave="hiddenImageHoverDiFelicia()" class="content">
+            <div class="containerImage">
+              <img src="images/logo-Di Felicia.png" alt="Logo da empresa" />
+            </div>
+            <h3 class="title">Di Felícia</h3>
+            <p class="paragraphSmall">
+              • Jovem Aprendiz Administrativo
+              <br />
+              <br />
+              • Vendedor
+            </p>
+            <i class="fa-solid fa-arrow-down arrowHoverImage"></i>
+            <div class="contentImageHover">
+              <img id="imageDiFelicia" src="./images/ImageHoverDiFelicia.jpg" alt="Foto na empresa Di Felicia" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ----- Acedemic Career ----- -->
+      <div class="containerTitle">
+        <h2 class="title">Formação Acadêmica e Atividades Complementares</h2>
+      </div>
+
+      <div class="main-container">
+        <div class="text-wrapper discover left">
+          <div onmouseover="showImageHoverCertificate()" onmouseleave="hiddenImageHoverCertificate()" class="content">
+            <div class="containerImage">
+              <img src="./images/logo-rocketseat.png" alt="Logo da empresa" />
+            </div>
+            <h3 class="title">Curso Discover</h3>
+            <p class="paragraphSmall">
+              • Mission: Discover Foundation – HTML, CSS, JavaScript, Node.js, SQL – Rocketseat - 2021
+              <br />
+              <br />
+              • Discover: Trilha Conectar – Fundamentos da programação, Funcionamento de Computadores, Internet e mais.
+              – Rocketseat – 2022
+              <br />
+              <br />
+              • Nlw Return: Trilha Impulse – React Js, TypeScript, Node.js, Tailwind CSS, Testes automatizados no
+              back-end, Solid, Prisma, React Native, Expo. – Rocketseat – 2022
+            </p>
+            <i class="fa-solid fa-arrow-down arrowHoverImage"></i>
+            <div class="contentImageHover">
+              <img id="imageCertificateDiscover" src="./images/CertificadoDiscover.PNG"
+                alt="Foto do certificado do curso Discover" />
+            </div>
+          </div>
+        </div>
+
+        <div class="text-wrapper uninter right">
+          <div class="content">
+            <div class="containerImage">
+              <img src="./images/logo-uninter.png" alt="Logo da faculdade Uninter" />
+            </div>
+            <h3 class="title">Uninter</h3>
+            <p class="paragraphSmall">
+              • Análise e desenvolvimento de sistemas - (Cursando)
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <div class="divider"></div>
+  </main>
+
+  <!-- ----- Footer ----- -->
+  <footer id="footer">
+    <div>
+      <h1 class="mainName title">Calil Vaz</h1>
+    </div>
+    <div id="contact">
+      <ul>
+        <a href="mailto:calilvazdev@gmail.com" target="_blank">
+          <i class="iconContact fa-regular fa-envelope"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/calil-vaz-8269b5224/" target="_blank">
+          <i class="iconContact fa-brands fa-linkedin-in"></i>
+        </a>
+
+        <a href="https://github.com/CalilVaz" target="_blank">
+          <i class="iconContact fa-brands fa-github"></i>
+        </a>
+
+        <a href="https://www.instagram.com/calil_vaz/?next=%2F" target="_blank">
+          <i class="iconContact fa-brands fa-instagram"></i>
+        </a>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script src="./scripts.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://kit.fontawesome.com/f889c139db.js" crossorigin="anonymous"></script>
+</html>
